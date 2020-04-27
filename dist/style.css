@@ -1,0 +1,110 @@
+html{
+    min-height: 100vh;
+}
+#content{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg');
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;;
+    min-height: 100vh; 
+}
+.navbar{
+    margin-top: 1%;
+    max-height: 10vh;
+    flex: 2;
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    flex:2;
+    font-size: 3rem ;
+    color: tomato;
+    font-family: 'Sacramento',cursive;
+}
+.about{
+    flex:4;
+    color: tomato;
+    font-family: 'Sacramento',cursive;
+    font-size: 3rem;
+   margin-bottom: 0.5%;
+}
+.about p{
+    margin-top: 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    color:white;
+    font-size: 7rem ;
+    font-family: 'Sacramento',cursive;
+    margin: 0;
+}
+.title p{
+    margin-top: 0;
+}
+.navbar button{
+    background-color: inherit;
+    border: 1px solid white;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Sacramento',cursive;
+    transition: background .2s ease-in;
+    
+}
+.navbar button:hover{
+    background-color: tomato;
+}
+h1{
+    margin-bottom: 0;
+}
+.info{
+    font-family: 'Sacramento',cursive;
+    flex:1;
+    margin-top: 5%;
+    font-size: 2rem;
+    color: white;
+}
+.phones{
+    
+    color:white;
+    width: 90%;
+    flex:5;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.phones a{
+    text-decoration: none;
+    color: inherit;
+}
+.telephone{
+    font-size: 2rem;
+}
+
+.telephone p{
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 0;
+    color: tomato;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: background .2s linear;
+}
+.telephone p:hover{
+    background-color: white;
+}
+.active{
+    background-color: tomato !important;
+}
+
