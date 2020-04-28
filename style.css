@@ -16,10 +16,9 @@ html{
     min-height: 100vh; 
 }
 .navbar{
-    margin-top: 1%;
     max-height: 10vh;
     flex: 2;
-    width:80%;
+    width:100%;
     display: flex;
     justify-content: space-around;
 }
@@ -57,13 +56,13 @@ html{
     border: 1px solid white;
     font-size: 3rem;
     font-weight: 700;
-    color: white;
+    color: tomato;
     font-family: 'Sacramento',cursive;
     transition: background .2s ease-in;
     
 }
 .navbar button:hover{
-    background-color: tomato;
+    background-color: white;
 }
 h1{
     margin-bottom: 0;
@@ -105,6 +104,6 @@ h1{
     background-color: white;
 }
 .active{
-    background-color: tomato !important;
+    background-color: white !important;
 }
 
