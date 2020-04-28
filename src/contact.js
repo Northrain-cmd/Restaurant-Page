@@ -1,19 +1,7 @@
 export default function renderContact(){
-    const wrapper = document.querySelector(".wrapper");
-    const navbar = document.createElement("div");
-            navbar.classList.add("navbar");
-                const contact = document.createElement("button");
-                contact.innerHTML="Contact";  
-                contact.id="contactBtn";  
-                contact.classList.add("active");
-                const aboutButton = document.createElement("button");
-                aboutButton.innerHTML="About"; 
-                aboutButton.id="aboutBtn";   
-                const menu = document.createElement("button");
-                menu.innerHTML="Menu";   
-                menu.id="menuBtn";
-            navbar.append(contact,aboutButton,menu);
-        wrapper.appendChild(navbar);
+    const content = document.querySelector('#content');
+    const wrapper = document.createElement('div');
+    wrapper.classList.add("wrapper");
         const info = document.createElement("div");
         info.classList.add("info");
             const infoText = document.createElement("h1");
@@ -59,5 +47,5 @@ export default function renderContact(){
         span3.appendChild(span3Text);
     phones.appendChild(span3);
 wrapper.appendChild(phones);
-
+content.appendChild(wrapper);
 }

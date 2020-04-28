@@ -1,21 +1,7 @@
-export  function renderAbout(){
+export default  function renderAbout(){
     const content = document.querySelector('#content');
         const wrapper = document.createElement("div");
         wrapper.classList.add("wrapper");
-            const navbar = document.createElement("div");
-            navbar.classList.add("navbar");
-                const contact = document.createElement("button");
-                contact.innerHTML="Contact";  
-                contact.id="contactBtn";  
-                const aboutButton = document.createElement("button");
-                aboutButton.innerHTML="About"; 
-                aboutButton.id="aboutBtn";   
-                aboutButton.classList.add("active");
-                const menu = document.createElement("button");
-                menu.innerHTML="Menu";   
-                menu.id="menuBtn";
-            navbar.append(contact,aboutButton,menu);
-        wrapper.appendChild(navbar);
             const nameDiv = document.createElement("div");
             nameDiv.classList.add("name");
                 const name = document.createElement("h1");

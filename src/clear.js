@@ -1,4 +1,5 @@
 export default function clear(){
-    const wrapper = document.querySelector(".wrapper");
-    wrapper.innerHTML="";
+    const content = document.querySelector("#content");
+    console.log(content.lastChild);
+    content.removeChild(content.lastChild);
 }
