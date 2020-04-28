@@ -3,7 +3,7 @@ html{
 }
 #content{
     min-height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
     background-image: url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg');
 }
@@ -105,5 +105,46 @@ h1{
 }
 .active{
     background-color: white !important;
+}
+.menu-title{
+    min-height:10vh;
+    color:tomato;
+    font-family: 'Sacramento',cursive;
+    font-size: 2rem;
+}
+.menu-cards{
+    margin-bottom: 20%;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-card{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+    max-height:50vh;
+}
+.menu-card img{
+    width:50%;
+    height:100%;
+    overflow: hidden;
+    border: 1px solid tomato;
+}
+ .menu-card h2{
+     color: white;
+     font-weight: 700;
+     font-family: 'Sacramento',cursive;
+     font-size: 3rem;
+     margin-top: 2%;
+    margin-bottom: 0;
+}
+.menu-card h3{
+    margin-top: 1%;
+    color: tomato;
+    font-size: 2.5em;
+    font-family: 'Sacramento',cursive;
 }
 
