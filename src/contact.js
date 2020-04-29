@@ -31,6 +31,7 @@ export default function renderContact(){
                     const span2Link = document.createElement("a")
                     span2Link.setAttribute("href","#");
                     span2Link.textContent = "apsny_garden@apsny.com";
+                    span2Link.classList.add("email");
                 span2Text.appendChild(span2Link);
             span2.appendChild(span2Text);
         phones.appendChild(span2);

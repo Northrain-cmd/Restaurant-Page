@@ -147,4 +147,68 @@ h1{
     font-size: 2.5em;
     font-family: 'Sacramento',cursive;
 }
+@media only screen and (max-width:800px){
+    #content{
+        background-image: url('mobile-bg.jpg');
+        background-repeat: repeat-y;
+    }
+    .about{
+        background-color: white;
+        border:1px solid tomato;
+    }
+    .phones{
+        flex-direction: column;
+    }
+    .phones a{
+        background-color: white;
+    }
+    .menu-card{
+        width: 50%;
+    }
+    .menu-card h3{
+        background-color: white;
+    }
+    .wrapper:last-child{
+        text-align: center;
+    }
+    @media only screen and (max-width:415px){
+        .navbar button{
+            font-size: 2rem;
+        }
+        .telephone span{
+            text-align: center;
+        }
+        .email{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+       
+}
+@media only screen and (max-width:390px){
+    .about{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .email{
+        font-size: 1.3rem;
+    }
+    .menu-card{
+        width:100%;
+    }
+
+}
+@media only screen and (max-width:321px){
+    .navbar button{
+        font-size: 1.9rem;
+    }
+    .title p{
+        font-size: 5rem;
+    }
+    .telephone a{
+        font-size: 1.8rem;
+    }
+    .email{
+        font-size: 1.1rem !important;
+    }
+}
 
